@@ -38,6 +38,8 @@ class ApplicationController < Sinatra::Base
     redirect to "/recipes/#{@recipe.id}"
   end
   
-  put '/'
+  put '/recipes/:id' do
+    
+  end
   
 end
