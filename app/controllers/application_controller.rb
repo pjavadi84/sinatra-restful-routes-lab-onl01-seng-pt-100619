@@ -42,4 +42,6 @@ class ApplicationController < Sinatra::Base
     @recipe = Recipe.create(params[:id])
   end
   
+  
+  
 end
