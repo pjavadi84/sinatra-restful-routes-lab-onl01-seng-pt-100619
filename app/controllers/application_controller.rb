@@ -39,7 +39,7 @@ class ApplicationController < Sinatra::Base
   end
   
   put '/recipes/:id' do
-    
+    @recipe = Recipe.create(params[:id])
   end
   
 end
